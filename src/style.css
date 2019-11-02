@@ -1,0 +1,55 @@
+.main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main > div {
+  width: 600px;
+  min-height: 80vh;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.main h3 {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.items {
+  height: 80%;
+  overflow: scroll;
+  padding: 10px;
+  font-size: 16px;
+  z-index: 1;
+}
+
+.main {
+  font-family: monospace;
+}
+
+.todo {
+  border: 2px dashed green;
+}
+
+.completed {
+  background-color: whitesmoke;
+}
+
+.item {
+  box-shadow: 1px 1px 1px 1px lightgray;
+  border-radius: 3px;
+  padding: 20px;
+  margin: 10px;
+  z-index: 100;
+}
+
+.todo .item:hover {
+  box-shadow: 1px 2px 2px 2px lightgray;
+  cursor: move
+}
+
+.item span {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 20px;
+}
